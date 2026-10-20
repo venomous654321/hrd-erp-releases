@@ -1,9 +1,9 @@
 {
-    "latest_version":  "6.1.0",
+    "latest_version":  "6.1.1",
     "release_date":  "2026-10-20",
-    "notes":  "Desktop polish: the unit on every line, on screen and on the invoice; silent failures now say so; the dashboard and the live preview no longer stall; the layout fits a small counter screen.",
-    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.1.0/HRD-ERP-6.1.0-portable.zip",
-    "sha256":  "301277cd847c1bc1f1a5486efdd2da56a7f560616ce6ab96e250e33353aff978",
-    "size_bytes":  71627389,
+    "notes":  "A proper installer. HRD ERP now installs with a real setup program (no admin needed), and the update channel serves the installer instead of a zip.",
+    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.1.1/HRD-ERP-Setup-6.1.1.exe",
+    "sha256":  "c32f2370c3a7f25c34a2c2f4cd9b08936e293910e3cedb49213d0d2844a5bc4c",
+    "size_bytes":  49573932,
     "mandatory":  false
 }
