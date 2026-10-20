@@ -1,9 +1,9 @@
 {
-    "latest_version":  "6.2.0",
+    "latest_version":  "6.2.1",
     "release_date":  "2026-10-21",
-    "notes":  "The brand icon on the desktop, the theme switch no longer rebuilds the window, the update check always asks the channel, and the profit report shows a real cost of goods sold.",
-    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.2.0/HRD-ERP-Setup-6.2.0.exe",
-    "sha256":  "f2e23708980ee5252715efd90c754d571d439311ee25f7a794ef575ad83221b4",
-    "size_bytes":  50171141,
+    "notes":  "A reliable upgrade: the installer now replaces the program files itself instead of running the old uninstaller, which could end with a failed install.",
+    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.2.1/HRD-ERP-Setup-6.2.1.exe",
+    "sha256":  "c3f5d0bce0b2ce04df327fa44f986ad462929b25318385f16da52a6688cc604b",
+    "size_bytes":  50169410,
     "mandatory":  false
 }
