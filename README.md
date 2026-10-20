@@ -9,10 +9,11 @@ GitHub account, and it cannot authenticate to a private repository.
 
 ## How it works
 
-`update_check.json` sits on the newest release. Every install polls:
+`update_check.json` sits in the main branch of this repository. Every install
+polls:
 
 ```
-https://github.com/venomous654321/hrd-erp-releases/releases/latest/download/update_check.json
+https://raw.githubusercontent.com/venomous654321/hrd-erp-releases/main/update_check.json
 ```
 
 The manifest says which version is current, where to get it, and what its
@@ -24,8 +25,8 @@ SHA-256 is:
   "release_date": "2026-10-20",
   "notes": "Desktop correctness round 1.",
   "download_url": "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.0.1/HRD-ERP-6.0.1-portable.zip",
-  "sha256": "â€¦",
-  "size_bytes": 71500000,
+  "sha256": "…",
+  "size_bytes": 71613833,
   "mandatory": false
 }
 ```
@@ -33,6 +34,13 @@ SHA-256 is:
 An install compares `latest_version` with its own. If it is newer, the app
 shows an update badge in the top bar, and the release can be downloaded and
 installed from there.
+
+### Why the manifest is not on the release
+
+GitHub's CDN caches release assets for a long time. A manifest that sits on a
+release can still be served from the cache after it has been replaced, and the
+app would not see the new version. A file in the main branch has ordinary
+cache rules, so a new release is picked up within minutes.
 
 ## Publishing a release
 
@@ -42,5 +50,13 @@ From the source repository:
 .\make_release.ps1 -Version 6.2.0 -Notes "What changed"
 ```
 
-That builds, tests, packs the portable build, writes the manifest, commits and
-tags the source, and publishes both files here as a new release.
+That builds, runs the tests, packs the portable build, writes the manifest,
+commits and tags the source, publishes the build as a release here, and
+updates `update_check.json` in this repository.
+
+## The two repositories
+
+| Repository | Visibility | Holds |
+|---|---|---|
+| `hrd-erp` | private | the source code |
+| `hrd-erp-releases` | public | the built releases and the manifest |
