@@ -1,9 +1,9 @@
 {
-    "latest_version":  "6.0.1",
+    "latest_version":  "6.1.0",
     "release_date":  "2026-10-20",
-    "notes":  "Desktop correctness round 1: transaction rollback, unit persistence, negative-total refusal, per-book fiscal close, real backup snapshots, and the mobile safety net.",
-    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.0.1/HRD-ERP-6.0.1-portable.zip",
-    "sha256":  "3b43764727289669cb5020f29ec5992e2090537b48534d66aea3e194da9e1889",
-    "size_bytes":  71613833,
+    "notes":  "Desktop polish: the unit on every line, on screen and on the invoice; silent failures now say so; the dashboard and the live preview no longer stall; the layout fits a small counter screen.",
+    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.1.0/HRD-ERP-6.1.0-portable.zip",
+    "sha256":  "301277cd847c1bc1f1a5486efdd2da56a7f560616ce6ab96e250e33353aff978",
+    "size_bytes":  71627389,
     "mandatory":  false
 }
