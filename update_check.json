@@ -1,0 +1,9 @@
+{
+    "latest_version":  "6.0.1",
+    "release_date":  "2026-10-20",
+    "notes":  "Desktop correctness round 1: transaction rollback, unit persistence, negative-total refusal, per-book fiscal close, real backup snapshots, and the mobile safety net.",
+    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.0.1/HRD-ERP-6.0.1-portable.zip",
+    "sha256":  "3b43764727289669cb5020f29ec5992e2090537b48534d66aea3e194da9e1889",
+    "size_bytes":  71613833,
+    "mandatory":  false
+}
