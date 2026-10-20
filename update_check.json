@@ -1,9 +1,9 @@
 {
-    "latest_version":  "6.1.1",
+    "latest_version":  "6.1.2",
     "release_date":  "2026-10-20",
-    "notes":  "A proper installer. HRD ERP now installs with a real setup program (no admin needed), and the update channel serves the installer instead of a zip.",
-    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.1.1/HRD-ERP-Setup-6.1.1.exe",
-    "sha256":  "c32f2370c3a7f25c34a2c2f4cd9b08936e293910e3cedb49213d0d2844a5bc4c",
-    "size_bytes":  49573932,
+    "notes":  "The installed app can now be pointed at the shop\u0027s data folder, so the installed app, the development run and the mobile server all read the same books. The log follows the data.",
+    "download_url":  "https://github.com/venomous654321/hrd-erp-releases/releases/download/v6.1.2/HRD-ERP-Setup-6.1.2.exe",
+    "sha256":  "cf3fb557dadc24555d5095ef6ee7cc93e0cda2c837490a25016590ca4342730c",
+    "size_bytes":  49590632,
     "mandatory":  false
 }
